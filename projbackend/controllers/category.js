@@ -8,7 +8,7 @@ exports.getCategoryById = (req, res, next, id) => {
             })
         }
 
-        req.Category = cate;
+        req.category = cate;
         next();
     })
 }

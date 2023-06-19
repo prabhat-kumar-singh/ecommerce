@@ -46,6 +46,7 @@ exports.getAllUniqueCategories = (req, res) =>{
 }
 
 exports.createProduct = (req, res) => {
+    
     let form = new formidable.IncomingForm();
     form.keepExtensions = true;
 

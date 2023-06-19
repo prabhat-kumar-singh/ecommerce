@@ -1,12 +1,15 @@
 import React from "react";
-import "../styles.css"
+import "../styles.css";
+
+import Base from "./Base";
 
 
 const Home = () => {
+    
     return(
-        <div>
-            <p>Welcome Home</p>
-        </div>
+        <Base title="Home Page">
+            <h1 className="text-white"> Welcome Home </h1>
+        </Base>
     )
 }
 
