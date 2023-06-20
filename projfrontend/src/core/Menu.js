@@ -18,7 +18,7 @@ const Menu = ({history}) => {
                     <Link style={currentTab(history, "/")} className="nav-link" to = "/">Home</Link>
                 </li>
                 <li className="nav-item">
-                    <Link style={currentTab(history, "/cart")} className="nav-link" to = "/">Cart</Link>
+                    <Link style={currentTab(history, "/cart")} className="nav-link" to = "/cart">Cart</Link>
                 </li>
                 {isAuthenticated() && isAuthenticated().user.role===0 && (
                     <li className="nav-item">
